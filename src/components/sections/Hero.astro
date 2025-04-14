@@ -4,7 +4,7 @@ import Section from '@/components/Section.astro'
 import { Icon } from 'astro-icon/components'
 
 const { name, animated_secondary_initial_label, animated_main_label, animated_secondary_final_label, image, location, email } = basics
-const { city, region, address } = location
+const { city, region } = location
 ---
 
 <Section className={Astro.props.className}>
@@ -12,7 +12,7 @@ const { city, region, address } = location
     <section
       id="about"
       aria-label="About me"
-      class="group flex gap-2 sm:-rotate-2 print:rotate-0 flex-col rounded-3xl bg-skin-muted sm:bg-skin-button-muted p-4 transition-all sm:hover:rotate-0 sm:hover:bg-skin-muted print:gap-0 print:p-2"
+      class="group flex gap-2 print:rotate-0 flex-col rounded-3xl bg-skin-muted sm:bg-skin-button-muted p-4 transition-all sm:hover:rotate-0 sm:hover:bg-skin-muted print:gap-0 print:p-2"
     >
       <div
         class="flex items-center text-center gap-4 print:gap-1"
@@ -50,7 +50,7 @@ const { city, region, address } = location
       </div>
       <div data-ccursor="noPadding" class='flex w-max gap-2 py-1 px-2 text-sm text-skin-muted'>
         <Icon class='print:hidden sm:group-hover:text-skin-hue' name='mdi:world' width={20} height={20} />
-        {address}, {city}, {region}
+        {city}, {region}
       </div>
       <div class="hidden print:block"><b>Contact: </b>{email}</div>
     </section>
@@ -58,7 +58,7 @@ const { city, region, address } = location
   <div class='flex gap-6 print:hidden'>
         <div
           aria-label="Social media"
-          class="flex group/social flex-wrap justify-evenly sm:h-40 sm:w-36 w-full h-min sm:flex-col rounded-3xl p-4 transition-all rotate-0 bg-skin-muted sm:bg-skin-button-muted sm:-rotate-2 sm:hover:rotate-0 sm:hover:bg-skin-muted"
+          class="flex group/social flex-wrap justify-evenly sm:h-40 sm:w-36 w-full h-min sm:flex-col rounded-3xl p-4 transition-all rotate-0 bg-skin-muted sm:bg-skin-button-muted sm:hover:rotate-0 sm:hover:bg-skin-muted"
         >
           {
             basics.profiles.map(({network, url, icon, color}) => {
@@ -80,7 +80,7 @@ const { city, region, address } = location
           }
         </div>
         <div
-          class="footer-button flex h-40 w-36 flex-col place-items-center rounded-3xl sm:bg-skin-muted p-4 transition-all rotate-0 bg-skin-muted sm:rotate-2 sm:hover:rotate-0 sm:hover:bg-skin-button-accent text-skin-hue sm:hover:text-skin-inverted max-sm:hidden print:hidden" data-ccursor="lift"
+          class="footer-button flex h-40 w-36 flex-col place-items-center rounded-3xl sm:bg-skin-muted p-4 transition-all rotate-0 bg-skin-muted sm:hover:rotate-0 sm:hover:bg-skin-button-accent text-skin-hue sm:hover:text-skin-inverted max-sm:hidden print:hidden" data-ccursor="lift"
         >
           <Icon name='ri:command-fill' class='flex-1 w-1/2'/>
           <p class="font-mono font-bold text-center">Open options</p>

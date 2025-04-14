@@ -1,264 +1,88 @@
 {
   "analyticsCode": "",
   "basics": {
-    "name": "Ariel G. Falcón",
+    "name": "Florian Burger",
     "label": "Software Developer",
     "animated_main_label": "developer",
     "animated_secondary_initial_label": "software",
-    "animated_secondary_final_label": "full_stack",
-    "image": "/pfp.webp",
-    "email": "falconyumn@gmail.com",
-    "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Full-Stack web developer, at the moment. I work on Angular and Vue with Java / Spring. Currently learning about AWS, Cloud Computing and DevOps.",
-    "theme": "red",
+    "animated_secondary_final_label": "backend",
+    "image": "/fb.jfif",
+    "email": "fburger@gmail.com",
+    "summary": "Backend developer, at the moment. I work on with Java EE and Python. Currently learning about Kubernetes, Docker and Cloud Computing.",
+    "theme": "orange",
     "location": {
-      "address": "Alcalá de Henares",
-      "city": "Madrid",
-      "countryCode": "ES",
-      "region": "Spain"
+      "city": "Munich",
+      "countryCode": "DE",
+      "region": "Germany"
     },
     "profiles": [
-      {
-        "network": "X / Twitter",
-        "icon": "ri:twitter-fill",
-        "color": "#1DA1F2",
-        "username": "@arielGfalcon",
-        "url": "https://x.com/arielGfalcon"
-      },
-      {
-        "network": "LinkedIn",
-        "icon": "ri:linkedin-fill",
-        "color": "#0066C2",
-        "username": "Ariel Falcón",
-        "url": "https://linkedin.com/in/arielfalcon"
-      },
       {
         "network": "GitHub",
         "icon": "mdi:github",
         "color": "#929AAB",
-        "username": "ArielFalcon",
-        "url": "https://github.com/ArielFalcon"
+        "username": "FloBurger",
+        "url": "https://github.com/FloBurger"
       },
       {
         "network": "Email",
         "icon": "ri:mail-fill",
         "color": "#D44638",
-        "username": "Ariel González Falcón",
-        "url": "mailto:falconyumn@gmail.com"
+        "username": "Florian Burger",
+        "url": "mailto:fburger@gmail.com"
       }
     ]
   },
   "education": [
     {
-      "institution": "Experis Academy – Spain",
-      "url": "https://www.linkedin.com/school/experis-academy",
-      "area": "Cloud Computing (AWS)",
-      "studyType": "Full-time student",
-      "startDate": "2025-01-01",
-      "endDate": "2025-05-21"
+      "institution": "University of Applied Sciences Landshut, Landshut, DE",
+      "url": "https://www.haw-landshut.de/",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2017-09-01",
+      "endDate": "2021-09-01",
+      "courses": [
+        "Project: Hacking Embedded industrial devices",
+        "Bachelorthesis: Experimental Measurement of Time-critical Offloading in Fog Computing Environment"
+      ]
     },
     {
-      "institution": "TEIDE Formation Center – Spain",
-      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n",
-      "area": "Web Development",
-      "studyType": "Full-time student",
-      "startDate": "2023-04-01",
-      "endDate": "2023-09-01"
-    },
-    {
-      "institution": "Calixto García Medical School – Cuba",
-      "url": "https://www.linkedin.com/company/hospital-universitario-calixto-garcia/?originalSubdomain=cu",
-      "area": "Medicine (unfinished)",
-      "studyType": "Full-time student",
-      "startDate": "2018-9-01",
-      "endDate": "2021-7-01"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "AWS Certified Developer – Associate",
-      "date": "2025-05-01",
-      "url": "",
-      "issuer": "Amazon"
-    },
-    {
-      "name": "C1 Advanced English",
-      "date": "2025-01-03",
-      "url": "https://cert.efset.org/es/6jDrGH",
-      "issuer": "EF SET"
+      "institution": "Ludwig Maximilian University of Munich, Munich, DE",
+      "url": "https://www.lmu.de/de/index.html",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2021-09-01",
+      "endDate": "2024-09-01"
     }
   ],
   "work": [
     {
-      "name": "Zener Soft Consulting",
-      "position": "Full-Stack Developer",
-      "location_type": "Remote",
-      "location": "ES",
-      "url": "https://www.linkedin.com/company/aitor-pelaez-zenerconsulting-com/",
-      "startDate": "2023-07-03",
-      "endDate": null,
-      "summary": "Experienced in developing high-complexity, scalable, data-driven projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services, Hexagonal, DDD, Spring Java project.",
+      "name": " adesso SE",
+      "position": "Workingstudent, Software Development",
+      "website": "https://www.adesso.de/de/",
+      "startDate": "2021-03-01",
+      "endDate": "2024-07-01",
+      "summary": "Backend development with Java Spring Boot",
       "highlights": [
-        "Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."
-      ],
-      "responsibilities": [
-        "Developed and maintained projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
-        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
-        "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
-        "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
-        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction.",
-        "Developed endpoints and services for business logic and data management, ensuring seamless integration with front-end applications."
-      ],
-      "achievements": [
-        "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
-        "Developed an internal tool to streamline client-owned code documentation, introducing interactive design guidelines and testable components.",
-        "Created a highly complex application for the national healthcare system, successfully handling large-scale data management and implementing intricate business logic.",
-        "Built reusable and scalable components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
-      ],
-      "skills": {
-        "HTML5": "simple-icons:html5",
-        "CSS3": "ri:css3-fill",
-        "SCSS": "simple-icons:sass",
-        "Bootstrap": "simple-icons:bootstrap",
-        "JavaScript ECMA6+": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Vue": "mdi:vuejs",
-        "Angular": "simple-icons:angular",
-        "Jasmine": "simple-icons:jasmine",
-        "Jest": "simple-icons:jest",
-        "Java": "ri:java-line",
-        "Spring": "simple-icons:spring",
-        "NodeJS": "ri:nodejs-line",
-        "Postman": "simple-icons:postman",
-        "i18n": "simple-icons:i18next",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "Figma": "simple-icons:figma",
-        "Jira": "simple-icons:jira",
-        "Kubernetes": "simple-icons:kubernetes",
-        "Docker": "simple-icons:docker"
-      }
+        
+      ]
+    },
+    {
+      "name": "adesso SE",
+      "position": "Intern, Mobile Development",
+      "website": "https://www.adesso.de/de/",
+      "startDate": "2020-07-01",
+      "endDate": "2021-02-28",
+      "summary": "Mobile app development with Android Studio",
+      "highlights": [
+        "Acquisition of sensor data with Android wearable",
+        "Creating a Rest API with python(flask) to upload a Neuronal Network and Classify the sensor data.",
+        "Modeling and implementation of a Database with PostgreSQL",
+        "Develop a Rest API with Java(Spring Boot) to access the Database",
+        "Working in a Scrum Team"
+      ]
     }
   ],
   "skills": [
-    {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "SCSS",
-      "icon": "simple-icons:sass",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Preprocessor",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "simple-icons:bootstrap",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Angular",
-      "icon": "simple-icons:angular",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Framework",
-        "UI"
-      ]
-    },
-    {
-      "name": "RxJS",
-      "icon": "simple-icons:reactivex",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Reactive Programming",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "Vue",
-      "icon": "mdi:vuejs",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    },
-    {
-      "name": "Astro",
-      "icon": "simple-icons:astro",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "SSR",
-        "Static Generation"
-      ]
-    },
     {
       "name": "Node",
       "icon": "ri:nodejs-line",
@@ -271,20 +95,9 @@
       ]
     },
     {
-      "name": "PNPM",
-      "icon": "simple-icons:pnpm",
-      "level": "Beginner",
-      "keywords": [
-        "Package Manager",
-        "Web Development",
-        "Frontend",
-        "Backend"
-      ]
-    },
-    {
       "name": "Java",
       "icon": "ri:java-line",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
         "Web Development",
         "Backend"
@@ -303,7 +116,7 @@
     {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Databases",
         "File",
@@ -312,20 +125,9 @@
       ]
     },
     {
-      "name": "MySQL",
-      "icon": "simple-icons:mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Backend",
-        "Databases",
-        "SQL",
-        "Relational Database"
-      ]
-    },
-    {
       "name": "PostgreSQL",
       "icon": "simple-icons:postgresql",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
         "Backend",
         "Databases",
@@ -355,16 +157,6 @@
       ]
     },
     {
-      "name": "AWS",
-      "icon": "simple-icons:amazonaws",
-      "level": "Beginner",
-      "keywords": [
-        "Cloud Computing",
-        "Backend",
-        "Infrastructure"
-      ]
-    },
-    {
       "name": "Docker",
       "icon": "mdi:docker",
       "level": "Intermediate",
@@ -376,7 +168,7 @@
     {
       "name": "Kubernetes",
       "icon": "mdi:kubernetes",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Virtual Environments",
         "Backend",
@@ -386,39 +178,19 @@
     {
       "name": "Python",
       "icon": "simple-icons:python",
-      "level": "Beginner",
+      "level": "Advanced",
       "keywords": [
         "Scripting",
         "Automation",
-        "Web Development"
-      ]
-    },
-    {
-      "name": "Jest",
-      "icon": "simple-icons:jest",
-      "level": "Intermediate",
-      "keywords": [
-        "Testing",
-        "Web Development",
-        "Frontend",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Jasmine",
-      "icon": "simple-icons:jasmine",
-      "level": "Intermediate",
-      "keywords": [
-        "Testing",
-        "Web Development",
-        "Frontend",
-        "Backend"
+        "Backend Development",
+        "ML",
+        "QC"
       ]
     },
     {
       "name": "Shell",
       "icon": "simple-icons:shell",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Scripting",
         "Automation"
@@ -427,7 +199,7 @@
     {
       "name": "Linux",
       "icon": "simple-icons:linux",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "OS",
         "Scripting",
@@ -437,7 +209,7 @@
     {
       "name": "Swagger",
       "icon": "simple-icons:swagger",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "API",
         "Documentation",
@@ -455,16 +227,25 @@
         "Web Development",
         "Backend"
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Experimental Analysis of Offloading Latency in Fog Computing",
+      "type": "journal",
+      "author": "Ahmed Chebaane, Florian Burger, Abdelmajid Khelil, Samuel Bruce McGaha",
+      "publisher": "Hochschule Landshut",
+      "releaseDate": "January, 2022",
+      "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4084561",
+      "summary": ""
     },
     {
-      "name": "Figma",
-      "icon": "simple-icons:figma",
-      "level": "Beginner",
-      "keywords": [
-        "Prototyping",
-        "Web Development",
-        "Frontend"
-      ]
+      "name": "Experimental Measurement of Time-critical Offloading in Fog Computing Environment",
+      "type": "thesis",
+      "author": "Florian Burger",
+      "publisher": "SSRN Electronic Journal",
+      "releaseDate": "August, 2021",
+      "summary": ""
     }
   ],
   "languages": [
@@ -479,42 +260,34 @@
   ],
   "projects": [
     {
-      "name": "CV Matching System",
+      "name": "Bachelor Thesis",
       "isActive": true,
-      "description": "A propiertary code AI-driven CV matching system to connect the offer and the best candidates. Automates the recruitment process.",
+      "description": "My Bachelor Thesis about Experimental Measurement of Time-critical Offloading in Fog Computing Environment",
       "highlights": [
-        "🎯 Tailored job opportunities",
-        "✨ AI-driven complex workflows ",
-        "🚀 80% increase in productivity"
+        "⚙️ Developed a layered offloading framework",
+        "⏱️ Conducted experimental evaluation",
+        "🚗 Explored offloading strategies for Vehicular Fog Computing (VFC)"
       ],
       "stack": {
         "Python": "simple-icons:python",
-        "Redis": "simple-icons:redis",
-        "Firebase": "simple-icons:firebase",
-        "Google Cloud": "simple-icons:googlecloud",
-        "Claude": "ri:claude-fill",
-        "Groq": "ri:robot-2-fill"
+        "Docker": "simple-icons:docker",
+        "Kubernetes": "simple-icons:kubernetes",
+        "Linux": "simple-icons:linux"
       },
-      "url": "https://www.gringojobs.com"
+      "url": "https://ieeexplore.ieee.org/document/10710234"
     },
     {
-      "name": "TODO List",
-      "isActive": false,
-      "description": "A simple app to showcase my skills in Angular. It's a TODO list with a beautiful and smooth UI, good user experience and best practices. Not finished yet.",
+      "name": "NVim Config",
+      "isActive": true,
+      "description": "My personalized Neovim setup – optimized for productivity, modular extensibility, and modern development standards. Includes plugins, LSP integration, and a custom theme.",
       "highlights": [
-        "📝 In progress",
-        "😮‍ Made-from-scratch complex components",
-        "😊 Beautiful and smooth UI, good user experience",
-        "\uD83E\uDD16 Server Side Rendering"
+        "🚀 Easy startup thanks to the Lazy plugin manager",
+        "🧠 IDE-like experience with LSP, autocompletion & snippets",
+        "🎨 Custom minimalist theme"
       ],
-      "github": "https://github.com/ArielFalcon/TODO-list",
+      "github": "https://github.com/FloBurger/config.nvim",
       "stack": {
-        "Angular": "simple-icons:angular",
-        "RxJS": "simple-icons:reactivex",
-        "TypeScript": "simple-icons:typescript",
-        "SCSS": "simple-icons:sass",
-        "NodeJS": "ri:nodejs-line",
-        "Firebase": "simple-icons:firebase"
+        "Lua": "simple-icons:lua"
       }
     },
     {
@@ -524,9 +297,9 @@
       "highlights": [
         "🚀 Fast, modern and SEO-friendly",
         "🎨 Printable CV generation",
-        "〔N〕Crazy NeoVim mode, try it!"
+        "〔N〕NeoVim mode, try it!"
       ],
-      "github": "https://github.com/ArielFalcon/portfolio",
+      "github": "https://github.com/FloBurger/portfolio",
       "stack": {
         "Astro": "simple-icons:astro",
         "TypeScript": "simple-icons:typescript",
@@ -536,43 +309,6 @@
         "Vercel": "simple-icons:vercel"
       },
       "url": "https://www.fburger.de"
-    },
-    {
-      "name": "AI Web Scraper",
-      "isActive": false,
-      "description": "A web scraper that uses AI to extract data from websites. It's a tool to automate the data extraction process, using machine learning to identify and extract data from websites.",
-      "highlights": [
-        "🤖 Simple script",
-        "🔍 Data Extraction",
-        "🌐 Web scraping"
-      ],
-      "stack": {
-        "Javascript": "simple-icons:javascript",
-        "Selenium": "simple-icons:selenium",
-        "ChromeDriver": "ri:chrome-fill",
-        "Groq": "ri:robot-2-fill"
-      },
-      "github": "https://github.com/ArielFalcon/ai_web_scrapper"
-    },
-    {
-      "name": "SpaceX Invaders",
-      "isActive": true,
-      "description": "A Space Invaders game with a retro look, made with Vue3 and TypeScript. It's a fun project to showcase my skills in Vue3 and TypeScript.",
-      "highlights": [
-        "🚀 Space Invaders game",
-        "🛸 Retro fun",
-        "🎮 Vue3 + TypeScript"
-      ],
-      "stack": {
-        "Vue3": "ri:vuejs-line",
-        "TypeScript": "simple-icons:typescript",
-        "CSS": "simple-icons:css",
-        "Vite": "simple-icons:vite",
-        "PNPM": "simple-icons:pnpm",
-        "Netlify": "simple-icons:netlify"
-      },
-      "github": "https://github.com/ArielFalcon/spacex-invaders",
-      "url": "https://spacex-invaders.netlify.app/"
     }
   ]
 }
