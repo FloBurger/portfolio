@@ -6,7 +6,7 @@
     "animated_main_label": "developer",
     "animated_secondary_initial_label": "software",
     "animated_secondary_final_label": "backend",
-    "image": "/fb.webp",
+    "image": "fb.webp",
     "email": "fburger@gmail.com",
     "summary": "Backend developer, at the moment. I work on with Java EE and Python. Currently learning about Kubernetes, Docker and Cloud Computing.",
     "theme": "orange",
