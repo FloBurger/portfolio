@@ -25,5 +25,6 @@ export default defineConfig({
       },
     }),
   ],
-  site: "https://fburger.de",
+  site: "https://floburger.github.io/portfolio/",
+  base: "/portfolio/",
 });
