@@ -305,8 +305,7 @@
         "TypeScript": "simple-icons:typescript",
         "Tailwind": "mdi:tailwind",
         "NodeJS": "ri:nodejs-line",
-        "PNPM": "simple-icons:pnpm",
-        "Vercel": "simple-icons:vercel"
+        "PNPM": "simple-icons:pnpm"
       },
       "url": "https://www.fburger.de"
     }

@@ -1,6 +1,3 @@
-> [!NOTE]
-> If you use, refactor or improve it in some way for your personal ussage, i'll be glad if you let me know to see it. THX!
-
 ## Print-friendly portfolio CV
 
 
@@ -21,9 +18,6 @@ I also implemented and improved this neovim mode [**neovim-porfolio**](https://g
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
 
 ## 🚀 Getting Started
-
-### 0. One-click to deploy on Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ArielFalcon/portfolio&project-name=portfolio&repository-name=portfolio)
 
 Modify the `cv.json` file to create your own printable Portfolio/CV.
 
@@ -67,7 +61,6 @@ Change the data-theme of `cv.json` and choose one of the colour themes defined i
 | ⚙️  | `dev` or `start` | Launches a local development server at `localhost:4321`.                   |
 | ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
 | ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
-| 📦  | `deploy:vercel`         | Deploy on Vercel.                           |
-| 📦 | `deploy:cloudflare`       | Deploy on Cloudflare, please run `wrangler login` first.                                           |                                |
+first.                                           |                                |
 
 CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
